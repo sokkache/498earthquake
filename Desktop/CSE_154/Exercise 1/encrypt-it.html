@@ -1,0 +1,34 @@
+<!DOCTYPE>
+<!-- 
+  CSE 154 Autumn 2018
+  Starter HTML for the Encrypt-It lab 
+-->
+<html>
+  <head>
+    <title>Encrypt-It!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Encrypt-It!</h1>
+    </header>
+    <main>
+      <h2>Translate any text message into a super-secret cipher!</h2>
+      <fieldset>
+        <legend>Text to Encrypt</legend>
+        <textarea id="message" rows = "10" cols ="60"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Encrypt Options</legend>
+        <label for="Cipher-Type">Cipher Type:</label>
+        <select id="pet-select">
+          <option value="">Shift Cipher</option>
+          <option value="dog">Randomized</option>
+        </select>
+        <button id="encrypt-it">Encrypt-It!</button>
+      </fieldset>
+      <p id="output"></p>
+    </main>
+  </body>
+</html>
+
+
