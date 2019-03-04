@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+header {
+  background-color:	#331900;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  padding: 20px;
+  margin: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-nav ul{
+  display:flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.App-nav ul li {
+  padding: 10px;
+}
+
+.About-us {
+  margin: 10px;
+  color:black;
+  background-image: url("ground_crack.svg");
+  padding:20px;
+}
+
+.About-us p, h1 {
+  font-weight:bold;
+  text-align: left;
+}
+
+.App-build-plan {
+  background-color: #FFE7CC;
+  margin: 10px;
+  padding:20px;
+}
+
+.card-group {
+  display:flex;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 20px;
+}
+
+.App-scenarios {
+  background-color:#FBC587;
+  margin: 10px;
+  padding:20px;
+}
+
+.scenario-group {
+  margin:50px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.scenario {
+  background-color:white;
+  border-radius:50%;
+  width: 200px;
+  height: 200px;
+  line-height: 175px;
+  text-align: center;
+}
+
+
+
+
+
