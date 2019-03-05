@@ -26,7 +26,7 @@ const Plan = () => {
               </Typography>
               <img src={house}/>
               <Typography variant="h6" color="textSecondary">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              When you are at home when an earthquake occurs, you should drop to the ground and take cover under a sturdy piece of furniture such as a table. Hold on to something untile the shaking stops, and try to avoid glass, windows, or anything else that might fall. 
               </Typography>
             </CardContent>
             </Card>
