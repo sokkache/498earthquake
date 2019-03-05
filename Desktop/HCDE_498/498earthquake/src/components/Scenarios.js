@@ -7,6 +7,10 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
+import home from "./home.png";
+import car from "./car.png";
+import bed from "./bed.png";
+import pet from "./pet.png";
 
 
 const Scenarios = () => {
@@ -16,16 +20,16 @@ const Scenarios = () => {
         <p>Know What to Do in Different Scenarios during an Earthquake</p>
         <div className="scenario-group">
           <div className="scenario">
-            <p> car </p>
+            <img src={car}/>
           </div>
           <div className="scenario">
-            <p> family </p>
+          <img src={home}/>
           </div>
           <div className="scenario">
-            <p> bed </p>
+          <img src={bed}/>
           </div>
           <div className="scenario">
-          <p> pet </p>
+          <img src={pet}/>
           </div>
         </div>
       </section>

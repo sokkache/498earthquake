@@ -12,7 +12,6 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Plan from "./components/Plan";
 import Scenarios from "./components/Scenarios";
-import Information from "./components/Information";
 
 
 import Button from '@material-ui/core/Button';
@@ -24,10 +23,6 @@ class App extends Component {
       headerText: "Hello World",
       numClicks:0
     }
-  }
-
-  navigateInformation() {
-    BrowserRouter.push("/Information");
   }
 
   render() {
