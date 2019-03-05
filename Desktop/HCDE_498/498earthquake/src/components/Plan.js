@@ -26,7 +26,8 @@ const Plan = () => {
               </Typography>
               <img src={house}/>
               <Typography variant="h6" color="textSecondary">
-              When you are at home when an earthquake occurs, you should drop to the ground and take cover under a sturdy piece of furniture such as a table. Hold on to something untile the shaking stops, and try to avoid glass, windows, or anything else that might fall. 
+              Your living situation and the type of home you live in determines some of the practices and protocols you should take in regards to your safety.
+              Specifying this will help us build the most relevant readiness plan for you!
               </Typography>
             </CardContent>
             </Card>
@@ -38,7 +39,8 @@ const Plan = () => {
               </Typography>
               <img src={family}/>
               <Typography variant="h6" color="textSecondary">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              One of the most important things to consider during a natural disaster are your family and pets. 
+              Taking steps to ensure their safety and prepare will keep you at ease. 
               </Typography>
             </CardContent>
             </Card>
@@ -50,7 +52,7 @@ const Plan = () => {
               </Typography>
               <img src={firstaid}/>
               <Typography variant="h6" color="textSecondary">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+               We want to take into account your previous first aid and preparedness plan to let you know what you're doing great and what you could possibly improve on. 
               </Typography>
             </CardContent>
             </Card>
